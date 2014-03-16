@@ -8,7 +8,7 @@
     <div class="sidebar">
 	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('首页侧栏') ) : ?>
     <div class="widget">
-		<h3>分类目录</h3>
+		<h3>分类目录1</h3>
 		<ul>
     		<?php wp_list_categories('depth=1&title_li=0&orderby=name&show_count=1'); ?>
 		</ul>
