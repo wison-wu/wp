@@ -1,14 +1,14 @@
 <div id="sidebar">
-    <div id="search">
+<!--    <div id="search">
 	    <form id="searchform" method="get" action="<?php bloginfo('home'); ?>">
 		    <input type="text" value="<?php the_search_query(); ?>" name="s" id="s" size="30" x-webkit-speech />
 			<button type="submit" id="searchsubmit"><i class="iconfont">&#337;</i></button>
 		</form>
-    </div>
+    </div>-->
     <div class="sidebar">
 	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('首页侧栏') ) : ?>
     <div class="widget">
-		<h3>分类目录1</h3>
+		<h3>分类目录</h3>
 		<ul>
     		<?php wp_list_categories('depth=1&title_li=0&orderby=name&show_count=1'); ?>
 		</ul>
